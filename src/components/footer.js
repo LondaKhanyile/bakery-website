@@ -4,7 +4,7 @@ import "../App.css";
 
 const Footer = () => (
   <footer className="footer">
-    <p>© 2025 Sweet Crumbs Bakery. Developed by Your Londa.</p>
+    <p>© 2025 Sweet Crumbs Bakery. Developed by Londa.</p>
   </footer>
 );
 
