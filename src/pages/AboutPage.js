@@ -1,24 +1,32 @@
 // src/pages/AboutPage.js
 
-// Import React to define a functional component
 import React from "react";
-
-// Import global CSS for consistent styling across pages
+import { Link } from "react-router-dom";
 import "../App.css";
 
-// Functional component for the About Us page
 const AboutPage = () => (
-  // Container div with classes for shared and page-specific styling
   <div className="page about">
-    {/* Main heading for the page */}
-    <h1>About Us</h1>
+    <h1>About Sweet Crumbs Bakery</h1>
+    <p>
+      At Sweet Crumbs Bakery, we believe that every bite should bring joy. 
+      Founded in 2010 by passionate bakers, our bakery has grown from a small neighborhood shop 
+      into a beloved community staple, known for our dedication to quality and authentic flavors.
+    </p>
+    <p>
+      Our expert bakers craft every pastry with the finest ingredients, ensuring freshness and flavor 
+      in every crumb. We specialize in both classic favorites and innovative creations, always made 
+      with love and care.
+    </p>
+    <p>
+      We are proud to serve our community by creating moments of sweetness, whether for your morning coffee, 
+      a special celebration, or a simple treat to brighten your day.
+    </p>
 
-    {/* Company history and values */}
-    <p>Sweet Crumbs Bakery began in 2001 as a small family-owned business...</p>
-    <p>Our mission is to bring warmth and sweetness into every home.</p>
-    <p>We value tradition, community, and quality in every bite.</p>
+    {/* See Our Menu button */}
+    <Link to="/menu" className="btn-see-menu">
+      See Our Menu
+    </Link>
   </div>
 );
 
-// Export the component to make it available for routing in App.js
 export default AboutPage;
