@@ -11,6 +11,7 @@ import Navigation from "./components/navigation"; // Navigation bar shown on all
 import HomePage from "./pages/HomePage";         // Homepage component
 import AboutPage from "./pages/AboutPage";       // About Us page component
 import MenuPage from "./pages/MenuPage";         // Menu page component
+import Footer from "./components/footer";  // Import Footer
 
 // Import main stylesheet for consistent styling across the app
 import "./App.css";
@@ -35,6 +36,8 @@ const App = () => (
         {/* Menu route */}
         <Route path="/menu" element={<MenuPage />} />
       </Routes>
+
+      <Footer />
     </div>
   </Router>
 );

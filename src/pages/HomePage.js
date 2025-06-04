@@ -12,11 +12,6 @@ const HomePage = () => (
         <p className="hero-subtitle">Delicious, fresh pastries made with love every morning.</p>
       </div>
     </section>
-
-    {/* Footer */}
-    <footer className="footer">
-      <p>© 2025 Sweet Crumbs Bakery. Developed by Your Londa.</p>
-    </footer>
   </>
 );
 
